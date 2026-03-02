@@ -4,6 +4,7 @@ import BiographySection from "@/components/BiographySection";
 import GallerySection from "@/components/GallerySection";
 import PeriodsTimeline from "@/components/PeriodsTimeline";
 import QuotesSection from "@/components/QuotesSection";
+import CommentsSection from "@/components/CommentsSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
       <GallerySection />
       <PeriodsTimeline />
       <QuotesSection />
+      <CommentsSection />
       <Footer />
     </div>
   );
