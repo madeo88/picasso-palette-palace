@@ -58,13 +58,21 @@ const artworks: Artwork[] = [
     description: "Ritratto iconico della sua musa e amante",
     colors: "from-picasso-rose to-picasso-gold",
   },
+  {
+    id: 7,
+    title: "La Vita",
+    year: "1903",
+    period: "Periodo Blu",
+    description: "Allegoria della vita umana tra amore, sofferenza e redenzione",
+    colors: "from-picasso-blue to-indigo-900",
+  },
 ];
 
 const GallerySection = () => {
   const [hoveredId, setHoveredId] = useState<number | null>(null);
 
   return (
-    <section id="opere" className="py-24 bg-background">
+    <section id="opere" className="py-24 bg-gradient-to-b from-[hsl(0_20%_10%)] via-[hsl(350_15%_12%)] to-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-picasso-gold font-body text-sm tracking-[0.3em] uppercase mb-4">
